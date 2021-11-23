@@ -82,8 +82,16 @@
 # else:
 #     print("É uma consoante!")
 
-vogal = input("Por favor, digite uma letra: ")
-v = ["a","e","i","o","u"]
+# letra = input("Por favor, digite uma letra: ").upper()
+# v = ["a", "e", "i", "o", "u"]
 
-if vogal in v:
-    
+# if letra in v:
+#   print(f'{letra} é vogal!')
+# else:
+#   print(f'{letra} é consoante!')
+
+
+# Faça um programa que peça uma nota, entre zero e dez.
+# Mostre uma mensagem caso o valor seja inválido e continue 
+# pedindo até que o usuário informe um valor válido.
+
