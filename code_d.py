@@ -97,8 +97,12 @@
 
 contador=1
 
-while nota<0 or nota>10:
-    nota = float(input('Insira uma nota de 0 à 10: '))
-    print('Digite um valor válido')
-print(f'A nota informada foi {nota}')     
+while contador <= 10:
+    nota = float(input(f'Digite a nota {contador}: '))
+    if nota <0 or nota >10:
+        print('Digite um valor válido')
+        continue
+    contador +=1
+ 
+    
 
