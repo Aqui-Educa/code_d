@@ -95,3 +95,10 @@
 # Mostre uma mensagem caso o valor seja inválido e continue 
 # pedindo até que o usuário informe um valor válido.
 
+contador=1
+
+while nota<0 or nota>10:
+    nota = float(input('Insira uma nota de 0 à 10: '))
+    print('Digite um valor válido')
+print(f'A nota informada foi {nota}')     
+
