@@ -27,3 +27,40 @@
 # --------------------------------------------------------
 
 #Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+
+# nota1 = float(input('Insira a 1ª nota: '))
+# nota2 = float(input('Insira a 2ª nota: '))
+# nota3 = float(input('Insira a 3ª nota: '))
+# nota4 = float(input('Insira a 4ª nota: '))
+
+# media = (nota1 + nota2 + nota3 + nota4) / 4
+
+# print(f'Sua média foi de {media}')
+#print('Sua media foi de ' , media)
+
+# --------------------------------------------------------
+
+# Faça um Programa que peça dois números e imprima o maior deles.
+
+# num1 = int(input('Insira um numero: '))
+# num2 = int(input('Insira outro numero: '))
+
+# if(num1 > num2):
+#     print(f'O nº {num1} é maior!')
+# elif(num2 > num1):
+#     print(f'O nº {num2} é maior!')
+# else:
+#     print('São iguais!')
+
+# --------------------------------------------------------
+
+# Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
+valor = int(input('Insira um número: '))
+
+if(valor > 0):
+    print(f'O valor {valor} é positivo')
+elif(valor < 0):
+    print(f'O valor {valor} é negativo')
+else:
+    print(f'O valor {valor} é neutro')
