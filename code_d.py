@@ -56,11 +56,34 @@
 
 # Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 
-valor = int(input('Insira um número: '))
+# valor = int(input('Insira um número: '))
 
-if(valor > 0):
-    print(f'O valor {valor} é positivo')
-elif(valor < 0):
-    print(f'O valor {valor} é negativo')
-else:
-    print(f'O valor {valor} é neutro')
+# if(valor > 0):
+#     print(f'O valor {valor} é positivo')
+# elif(valor < 0):
+#     print(f'O valor {valor} é negativo')
+# else:
+#     print(f'O valor {valor} é neutro')
+
+
+# Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
+# vogal = input("Por favor, digite uma letra: ")
+
+# if vogal == "a" or vogal == "e" or vogal == "i" or vogal == "o" or vogal == "u":
+#     print("É uma vogal!")
+# else:
+#     print("É uma consoante!")
+
+# # outra forma:
+
+# if vogal in "aeiou":
+#     print("É uma vogal!")
+# else:
+#     print("É uma consoante!")
+
+vogal = input("Por favor, digite uma letra: ")
+v = ["a","e","i","o","u"]
+
+if vogal in v:
+    
